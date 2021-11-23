@@ -23,6 +23,18 @@ body {
 
 
 /*===== FIXED BACKGROUND IMG =====*/
+i{
+  color: white;
+  font-size: 2.5rem;
+}
+i:hover{
+  color: aquamarine;
+}
+ul{
+  list-style-type: none;
+  max-width: 16rem;
+  margin: auto;
+}
 .fixed {
   position: fixed;
   /* The element is positioned relative to the viewport which means it always stays in the same place even if the page is scrolled.*/
@@ -72,3 +84,4 @@ body {
 @media (max-width: 576px) {
   
 }
+
